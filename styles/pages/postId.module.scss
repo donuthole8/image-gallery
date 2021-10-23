@@ -1,0 +1,67 @@
+.wrapper {
+    margin: 0 auto;
+    margin-top: 65px;
+    width: 65%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.img {
+}
+
+.left {
+    width: 45%;
+}
+
+.right {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.commentTitle {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.commentWrapper {
+    height: 250px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+.comment {
+    margin-top: 15px;
+    width: 400px;
+    transition: 0.3s;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #c9c9ca;
+}
+
+.commentBody {
+    font-size: 20px;
+}
+
+.commentDate {
+    font-size: 3px;
+    text-align: right;
+    margin-right: 8px;
+}
+
+.similarImg {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
